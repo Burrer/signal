@@ -1,5 +1,0 @@
-curl --request POST \
-  --url https://api.sendgrid.com/v3/mail/send \
-  --header 'authorization: Bearer [API KEY]' \
-  --header 'Content-Type: application/json' \
-  --data '{"personalizations": [{"to": [{"email": "RECIPIENT ADDRESS"}],"dynamic_template_data":{"firstname":"RECIPIENT NAME","english":"true","spanish":"false"},"custom_args":{"Signal":"true","Workshop":"Twilio SendGrid Email API","my_message_id":"msg_12345"}}],"from": {"email": "FROM EMAIL"},"subject":"Welcome to Signal, {{firstname}}!","content": [{"type": "text/plain","value": "Heya!"}], "template_id" : "YOUR TEAMPLATE_ID"}'
