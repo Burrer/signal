@@ -4,6 +4,8 @@ This repo contains templates HTML/CSS, JSON personalization examples, as well as
 
 If wanting to use SendGrid's official API libraries please visit use the following URL: (https://sendgrid.com/docs/for-developers/sending-email/libraries/)
 
+Important to note: SendGrid dog foods our APIs to power the UI, so all of these steps can be done via the API as well as the UI.  For interested attendees feel free to use our [Postman integration](https://sendgrid.com/blog/sendgrid-v3-api-postman-2/) for easy access to API endpoints and documentation.
+
 # Goal:
 To deliver a handlebar based transactional template to yourself or a friend, using your own SendGrid account using your own authenticated domain, and tracking the emails activity using the webhook or email activity feed within your account (last step optional).
 
@@ -14,11 +16,11 @@ To deliver a handlebar based transactional template to yourself or a friend, usi
   - Email Template (samples provided)
 
 # Steps
-- Create an API key with at least mail permissions (cURL example provided)
+- Create an API key with at least mail permissions
 UI: Settings -> API Keys -> Create Key
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/78ffe380-37ef-4c35-887b-25cfe0f6c20e/00000004.png)
   
-- Authenticate Your Domain (requires domain ownership and access to host for DNS creation)
+- Authenticate Your Domain (requires domain ownership and access to host for DNS creation).  If you do not have a domain skip ahead to the next steps (you will still be able to send mail, you will just a see a 'via sendgrid.net' statement in the FROM address).
 Sendgrid Documentation
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5dab8e97-f289-4e2f-8426-ce45b50518d9/00000006.png)
 
