@@ -1,3 +1,34 @@
 # Signal-2019
 
-This repo contains the handlebar templates HTML/CSS, JSON examples, as well as some v3 EMAIL API cURL examples for the "Twilio SendGrid's Email API: Features, Tricks, and Tips".
+This repo contains templates HTML/CSS, JSON personalization examples, as well as v3 Email API cURL examples for the "Twilio SendGrid's Email API: Features, Tricks, and Tips" workshop.
+
+If wanting to use SendGrid's official API libraries please visit use the following URL: (https://sendgrid.com/docs/for-developers/sending-email/libraries/)
+
+# Requirements:
+  - SendGrid Account API Key (get trial [here](https://sendgrid.com/free/))
+  - Terminal/Command/Postman
+  - Domain and access to hosting
+  - Email Template (samples provided)
+
+# Steps
+- Create an API key with at least mail permissions (cURL example provided)
+UI: Settings -> API Keys -> Create Key
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/78ffe380-37ef-4c35-887b-25cfe0f6c20e/00000004.png)
+  
+- Authenticate Your Domain (requires domain ownership and access to host for DNS creation)
+Sendgrid Documentation
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5dab8e97-f289-4e2f-8426-ce45b50518d9/00000006.png)
+
+- Build Template or Copy/Paste Template HTML/CSS into Transactional Templates editor
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/6e309f0b-e7bf-4196-a952-e97b556cf9cb/00000003.png)
+
+- (*Optional*) Setup your event notification app with event webhook endpoint URL
+[SendGrid Event Kit](https://sendgrid.com/docs/for-developers/tracking-events/event-kit/)
+Or use own webhook endpoint - webhook code samples [here](https://sendgrid.com/docs/for-developers/tracking-events/)
+
+- Use Twilio [SendGrid API Library](https://sendgrid.com/docs/for-developers/sending-email/libraries/) or cURL examples in repo to send emails to yourself using a transactional template
+Make sure if using cURL request to substitute all areas in brackets: [API key], [FROM], [TO], etc.
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/78ffe380-37ef-4c35-887b-25cfe0f6c20e/00000004.png)
+
+- (Optional) Use webhook to track your email activity, the [Email Activity Feed](https://app.sendgrid.com/email_activity)
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5b1db284-85db-4863-9929-e79dfe9e0b44/00000005.png)
