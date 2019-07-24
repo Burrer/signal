@@ -1,0 +1,34 @@
+{
+"personalizations": [
+        {
+            "to": [
+                {
+                    "email": "TO EMAIL"
+                }
+            ],
+            "dynamic_template_data":
+            {
+            "firstname":"RECIPIENT NAME", 
+            "english":"true",
+            "spanish":"false"
+            },
+            "custom_args": {
+                "signal": "true",
+                "workshop": "Twilio SendGrid Email API",
+                "my_message_id": "msg_12345"
+            }
+        }
+    ],
+    "categories":["Signal Email API WorkShop"],
+    "from": {
+        "email": "FROM ADDRESS",
+        "name": "FRIENDLY FROM / FROM NAME"
+    },
+    "subject": "Welcome to Signal, {{firstname}}!",
+    "content": [
+        {
+            "type": "text\/html",
+            "value": "<html>"
+        }
+    ],
+    "template_id": "TEMPLATE_ID"}
