@@ -23,7 +23,7 @@ Sendgrid Documentation
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/6e309f0b-e7bf-4196-a952-e97b556cf9cb/00000003.png)
 
 - (*Optional*) Setup your event notification app with event webhook endpoint URL
-[SendGrid Event Kit](https://sendgrid.com/docs/for-developers/tracking-events/event-kit/)
+[SendGrid Event Kit](https://sendgrid.com/docs/for-developers/tracking-events/event-kit/)(easiest method)
 Or use own webhook endpoint - webhook code samples [here](https://sendgrid.com/docs/for-developers/tracking-events/)
 
 - Use Twilio [SendGrid API Library](https://sendgrid.com/docs/for-developers/sending-email/libraries/) or cURL examples in repo to send emails to yourself using a transactional template
