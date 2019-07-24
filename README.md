@@ -35,7 +35,7 @@ Feel free to add subsitution values to your template - but make sure to log thos
 Or use own webhook endpoint - webhook code samples [here](https://sendgrid.com/docs/for-developers/tracking-events/)
 
 - Use Twilio [SendGrid API Library](https://sendgrid.com/docs/for-developers/sending-email/libraries/) or cURL examples in repo to send emails to yourself using a transactional template
-Make sure if using cURL request to substitute all areas in brackets: [API key], [FROM], [TO], etc.
+Make sure to substitute all different parameters of the request with your ownn data: API KEY, FROM ADDRESS, TO ADDRESS, etc.
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/416feee0-ef1f-4a41-b73a-fb12aef32e1b/00000007.png)
 Copy/Paste in terminal to send email
 
