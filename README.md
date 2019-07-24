@@ -10,7 +10,7 @@ Important to note: SendGrid dog foods our APIs to power the UI, so all of these 
 To deliver a handlebar based transactional template to yourself or a friend, using your own SendGrid account using your own authenticated domain, and tracking the emails activity using the webhook or email activity feed within your account (last step optional).
 
 # Requirements:
-  - SendGrid Account API Key (get trial [here](https://sendgrid.com/free/)
+  - SendGrid Account API Key (get trial [here])(https://sendgrid.com/free/)
   - Domain and access to hosting (for DNS creation)
   - Email Template (samples provided)
   - Terminal/Command/API Client (Postman)
