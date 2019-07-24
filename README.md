@@ -25,10 +25,10 @@ Sendgrid Documentation
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5dab8e97-f289-4e2f-8426-ce45b50518d9/00000006.png)
 
 - Build Template or Copy/Paste Template HTML/CSS into Transactional Templates editor - make sure to set subject line ("Welcome to Signal, {{firstname}}!") when building your transactional template.
-![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/6e309f0b-e7bf-4196-a952-e97b556cf9cb/00000003.png)
 If wanting to build your own handlebar based templates look to this documentation [here](https://sendgrid.com/docs/for-developers/sending-email/using-handlebars/)
-![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/c9a8ad74-2733-4bd1-a435-527cbfd1441a/00000008.png)
 Feel free to add subsitution values to your template - but make sure to log those same substitutitons under 'dynamic template data' in your API request.
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/6e309f0b-e7bf-4196-a952-e97b556cf9cb/00000003.png)
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/c9a8ad74-2733-4bd1-a435-527cbfd1441a/00000008.png)
 
 - (*Optional*) Setup your event notification app with event webhook endpoint URL
 [SendGrid Event Kit](https://sendgrid.com/docs/for-developers/tracking-events/event-kit/)(easiest method)
