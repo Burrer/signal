@@ -21,6 +21,7 @@ Sendgrid Documentation
 
 - Build Template or Copy/Paste Template HTML/CSS into Transactional Templates editor
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/6e309f0b-e7bf-4196-a952-e97b556cf9cb/00000003.png)
+If wanting to build your own handlebar based templates look to this documentation [here](https://sendgrid.com/docs/for-developers/sending-email/using-handlebars/)
 
 - (*Optional*) Setup your event notification app with event webhook endpoint URL
 [SendGrid Event Kit](https://sendgrid.com/docs/for-developers/tracking-events/event-kit/)(easiest method)
