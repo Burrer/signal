@@ -5,7 +5,7 @@ This repo contains templates HTML/CSS, JSON personalization examples, as well as
 If wanting to use SendGrid's official API libraries please visit use the following URL: (https://sendgrid.com/docs/for-developers/sending-email/libraries/)
 
 # Goal:
-To deliver a handlebar based transactional template to yourself or a friend, using your own SendGrid account using your own authenticated domain.
+To deliver a handlebar based transactional template to yourself or a friend, using your own SendGrid account using your own authenticated domain, and tracking the emails activity using the webhook or email activity feed within your account (last step optional).
 
 # Requirements:
   - SendGrid Account API Key (get trial [here](https://sendgrid.com/free/))
