@@ -20,13 +20,12 @@ To deliver a handlebar based transactional template to yourself or a friend, usi
 UI: Settings -> API Keys -> Create Key
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/78ffe380-37ef-4c35-887b-25cfe0f6c20e/00000004.png)
   
-- Authenticate Your Domain (requires domain ownership and access to host for DNS creation).  If you do not have a domain skip ahead to the next steps (you will still be able to send mail, you will just a see a 'via sendgrid.net' statement in the FROM address).  Go to ['Sender Authentication'](https://app.sendgrid.com/settings/sender_auth) and click on 'Authenticate Your Domain".  Make sure to select 'Yes' for link branding (#2) if planning on using SendGrid for click tracking.  If you have a dedicated IP (pro100k plans and higher) you should also have a section to authenticate your IP(s) rDNS via A records.
-Sendgrid Documentation
+- Authenticate Your Domain:  If you do not have a domain skip ahead to the next steps (you will still be able to send mail, you will just a see a 'via sendgrid.net' statement in the FROM address).  Go to ['Sender Authentication'](https://app.sendgrid.com/settings/sender_auth) and click on 'Authenticate Your Domain".  Make sure to select 'Yes' for link branding (#2) if planning on using SendGrid for click tracking.  If you have a dedicated IP (pro100k plans and higher) you should also have a section to authenticate your IP(s) rDNS via A records.
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5dab8e97-f289-4e2f-8426-ce45b50518d9/00000006.png)
 
-- Take the DNS records the Sender Authentication system output and input them in your domain's host.
+- Take the DNS records and input them in your domain's host.
 
-- After inplementing the new DNS records in your domain's host go back to Sender Authentication and 'verify' your new domain and link authentication.  Please note: propagation time varies by host and can take up to 24 hours for some hosts.  You can check on your DNS propagation by running 'dig' commands in terminal/command (example: 'dig cname [host record]') to see if your DNS records are publicly queriable.
+- After implementing the new DNS records in your domain host go back to [Sender Authentication](https://app.sendgrid.com/settings/sender_auth) and 'verify' your new domain and link authentication.  Please note: propagation time varies by host and can take up to 24 hours for some hosts.  You can check on your DNS propagation by running [dig](https://www.tecmint.com/10-linux-dig-domain-information-groper-commands-to-query-dns/) commands in terminal/command (example: 'dig [host record] cname') to see if your DNS records are publicly queriable.
 
 - Build Template or Copy/Paste Template HTML/CSS into Transactional Templates editor - make sure to set subject line ("Welcome to Signal, {{firstname}}!") when building your transactional template.
 If wanting to build your own handlebar based templates look to this documentation [here](https://sendgrid.com/docs/for-developers/sending-email/using-handlebars/)
