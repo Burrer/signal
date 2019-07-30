@@ -16,7 +16,7 @@ To deliver a handlebar based transactional template to yourself or a friend, usi
   - Terminal/Command/API Client (Postman)
 
 # Steps
-- Create an API key with at least mail permissions
+- Create an API key with at least mail permissions (give full permissions if following through steps with API)
 UI: Settings -> API Keys -> Create Key
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/78ffe380-37ef-4c35-887b-25cfe0f6c20e/00000004.png)
   
