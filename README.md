@@ -34,13 +34,12 @@ Feel free to add subsitution values to your template - but make sure to log thos
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/c9a8ad74-2733-4bd1-a435-527cbfd1441a/00000008.png)
 
 - (*Optional*) Setup your event notification app with an endpoint URL.  Feel free to use a service like [Requestbin](http://requestbin.net/)
-Or use own webhook endpoint - webhook code samples [here](https://sendgrid.com/docs/for-developers/tracking-events/)
-There will be a Workshop on Twilio SendGrid webhooks at 8/6 (same day as this workshop) from 4:15pm to 5:25pm.
+Or use own webhook endpoint - webhook code samples [here](https://sendgrid.com/docs/for-developers/tracking-events/).  Make sure to setup your webhook URL in the [Event Notifcation App](https://app.sendgrid.com/settings/mail_settings).
+There will be a Workshop on "Consuming Twilio SendGrid Webhooks" at 8/6 (same day as this workshop) from 4:15pm to 5:25pm.
 
-- Use Twilio [SendGrid API Library](https://sendgrid.com/docs/for-developers/sending-email/libraries/) or cURL examples in repo to send emails to yourself using a transactional template
-Make sure to substitute all different parameters of the request with your ownn data: API KEY, FROM ADDRESS, TO ADDRESS, etc.
+- Use cURL examples, Twilio [SendGrid API Library](https://sendgrid.com/docs/for-developers/sending-email/libraries/) or [Postman](https://www.getpostman.com/downloads/) to send an email using a transactional template
+Make sure to substitute all different parameters of the request in text editor with your own data: API KEY, FROM ADDRESS, TO ADDRESS, etc.
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/416feee0-ef1f-4a41-b73a-fb12aef32e1b/00000007.png)
-Copy/Paste in terminal to send email
 
 - Use webhook and/or the [Email Activity Feed](https://app.sendgrid.com/email_activity) to track you email activity and history
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5b1db284-85db-4863-9929-e79dfe9e0b44/00000005.png)
