@@ -1,0 +1,34 @@
+curl -X POST -H "Authorization: Bearer REPLACE: API KEY" -H "Content-Type: application/json" -d '{
+"personalizations": [
+        {
+            "to": [
+                {
+                    "email": "REPLACE: TO ADDRESS"
+                }
+            ],
+            "dynamic_template_data":
+            {
+            "firstname":"REPLACE: YOUR FIRST NAME", 
+            "english":"true",
+            },
+            "custom_args": {
+                "Signal": "true",
+                "Workshop": "Twilio SendGrid Email API",
+                "message_id": "msg_123ABC"
+            },
+            "ip_pool": "ryan_marketing"
+        }
+    ],
+    "categories":["Signal"],
+    "from": {
+        "email": "REPLACE: FROM ADDRESS",
+        "name": "REPLACE: FROM NAME"
+    },
+    "subject": "Subject handled by template_id",
+    "content": [
+        {
+            "type": "text\/html",
+            "value": "<html>"
+        }
+    ],
+    "template_id": "REPLACE: TEMPLATE_ID"}' "https://api.sendgrid.com/v3/mail/send"
