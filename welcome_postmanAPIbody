@@ -3,12 +3,12 @@
         {
             "to": [
                 {
-                    "email": "REPLACE:TO EMAIL"
+                    "email": "REPLACE: TO EMAIL"
                 }
             ],
             "dynamic_template_data":
             {
-            "firstname":"RECIPIENT NAME", 
+            "firstname":"REPLACE: RECIPIENT NAME", 
             "english":"true",
             "spanish":"false"
             },
@@ -19,16 +19,16 @@
             }
         }
     ],
-    "categories":["REPLACE"],
+    "categories":["Signal Email API Workshop"],
     "from": {
-        "email": "REPLACE",
-        "name": "REPLACE"
+        "email": "REPLACE: FROM ADDRESS",
+        "name": "REPLACE: FROM NAME"
     },
-    "subject": "Welcome to Signal, {{firstname}}!",
+    "subject": "Subject line setup by template_id",
     "content": [
         {
             "type": "text\/html",
             "value": "<html>"
         }
     ],
-    "template_id": "REPLACE:TEMPLATE_ID"}
+    "template_id": "REPLACE: TEMPLATE_ID"}
