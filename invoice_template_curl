@@ -1,9 +1,9 @@
-curl -X POST -H "Authorization: Bearer [REPLACE:API KEY]" -H "Content-Type: application/json" -d '{
+curl -X POST -H "Authorization: Bearer REPLACE: API KEY" -H "Content-Type: application/json" -d '{
 "personalizations": [
         {
             "to": [
                 {
-                    "email": "[REPLACE:TO EMAIL]"
+                    "email": "REPLACE: TO EMAIL"
                 }
             ],
             "dynamic_template_data":
@@ -177,8 +177,8 @@ curl -X POST -H "Authorization: Bearer [REPLACE:API KEY]" -H "Content-Type: appl
     ],
     "categories":["REPLACE"],
     "from": {
-        "email": "[REPLACE:FROM ADDRESS]",
-        "name": "[REPLACE:Friendly FROM]"
+        "email": "REPLACE:FROM ADDRESS",
+        "name": "REPLACE: FRIENDLY FROM"
     },
     "subject": "Subject is handled by template_id",
     "content": [
@@ -187,4 +187,4 @@ curl -X POST -H "Authorization: Bearer [REPLACE:API KEY]" -H "Content-Type: appl
             "value": "<html>"
         }
     ],
-    "template_id": "[REPLACE:template_id]"}' "https://api.sendgrid.com/v3/mail/send"
+    "template_id": "REPLACE: TEMPLATE_ID"}' "https://api.sendgrid.com/v3/mail/send"
