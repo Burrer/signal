@@ -15,8 +15,7 @@ curl -X POST -H "Authorization: Bearer REPLACE: API KEY" -H "Content-Type: appli
                 "Signal": "true",
                 "Workshop": "Twilio SendGrid Email API",
                 "message_id": "msg_123ABC"
-            },
-            "ip_pool": "ryan_marketing"
+            }
         }
     ],
     "categories":["Signal"],
