@@ -42,4 +42,4 @@ Make sure to substitute all different parameters of the request in text editor w
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/416feee0-ef1f-4a41-b73a-fb12aef32e1b/00000007.png)
 
 - Use webhook and/or the [Email Activity Feed](https://app.sendgrid.com/email_activity) to track you email activity and history
-![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/5b1db284-85db-4863-9929-e79dfe9e0b44/00000005.png)
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/8947def8-fd85-4296-832d-337f18ecc070/00000009.png)
