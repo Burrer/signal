@@ -38,8 +38,8 @@ Or use own webhook endpoint - webhook code samples [here](https://sendgrid.com/d
 There will be a Workshop on "Consuming Twilio SendGrid Webhooks" at 8/6 (same day as this workshop) from 4:15pm to 5:25pm.
 
 - Use cURL examples, Twilio [SendGrid API Library](https://sendgrid.com/docs/for-developers/sending-email/libraries/) or [Postman](https://www.getpostman.com/downloads/) to send an email using a transactional template
-Make sure to substitute all different parameters of the request in text editor with your own data: API KEY, FROM ADDRESS, TO ADDRESS, etc.
-![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/416feee0-ef1f-4a41-b73a-fb12aef32e1b/00000007.png)
+Make sure to substitute all different parameters of the request in text editor with your own data - search for "REPLACE" in requests and subsitute your own info.
+![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/fed05cc9-6190-4dbb-ae45-c4b29bcb04d9/00000010.png)
 
 - Use webhook and/or the [Email Activity Feed](https://app.sendgrid.com/email_activity) to track you email activity and history
 ![N|Solid](https://content.screencast.com/users/ryantsg/folders/Jing/media/8947def8-fd85-4296-832d-337f18ecc070/00000009.png)
