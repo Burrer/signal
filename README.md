@@ -11,7 +11,7 @@ To deliver a handlebar based transactional template to yourself or a friend, usi
 
 # Requirements:
   - SendGrid Account API Key - get trial acct [here](https://sendgrid.com/free/)
-  - Domain and access to hosting (for DNS creation)
+  - Domain and access to hosting (optional - but needed for DNS creation)
   - Email Template (samples provided)
   - Terminal/Command/API Client (Postman)
 
