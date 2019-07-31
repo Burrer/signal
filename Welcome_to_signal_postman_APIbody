@@ -3,7 +3,7 @@
         {
             "to": [
                 {
-                    "email": "TO EMAIL"
+                    "email": "REPLACE:TO EMAIL"
                 }
             ],
             "dynamic_template_data":
@@ -19,10 +19,10 @@
             }
         }
     ],
-    "categories":["Signal Email API WorkShop"],
+    "categories":["REPLACE"],
     "from": {
-        "email": "FROM ADDRESS",
-        "name": "FRIENDLY FROM / FROM NAME"
+        "email": "REPLACE",
+        "name": "REPLACE"
     },
     "subject": "Welcome to Signal, {{firstname}}!",
     "content": [
@@ -31,4 +31,4 @@
             "value": "<html>"
         }
     ],
-    "template_id": "TEMPLATE_ID"}
+    "template_id": "REPLACE:TEMPLATE_ID"}
